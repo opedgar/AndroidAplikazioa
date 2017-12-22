@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "38600116146",
+    "firebase_url": "https://androidaplikazioa.firebaseio.com",
+    "project_id": "androidaplikazioa",
+    "storage_bucket": "androidaplikazioa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38600116146:android:27e4b8a331c3a303",
+        "android_client_info": {
+          "package_name": "com.example.edgar.androidaplikazioa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38600116146-kt1ppvetid5r50v9b0nre0val059fiqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edgar.androidaplikazioa",
+            "certificate_hash": "8631d31578a7455b3c91f5e703eaacd3b6eb1b53"
+          }
+        },
+        {
+          "client_id": "38600116146-1ve14kh8lnlo6l2tkq1c556k04tg6f9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuFhNPNJPWh99l4SJ9ntf0VCCXs65FecE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38600116146-1ve14kh8lnlo6l2tkq1c556k04tg6f9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

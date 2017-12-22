@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edgar.androidaplikazioa.AddHabitActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="Añadir Habito"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center|left">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecciona que días quieres realizar este habito:"
+                android:gravity="left"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="left"
+                android:padding="20dp">
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/btnLunes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lunes"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"/>
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/btnMartes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Martes"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"/>
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/btnMiercoles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Miercoles"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"/>
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/btnJueves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jueves"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"/>
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/btnViernes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Viernes"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"/>
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/btnSabado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sabado"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"/>
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/btnDomingo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Domingo"
+                    android:textColor="@color/colorPrimary"
+                    android:buttonTint="@color/colorPrimary"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/Base.DialogWindowTitleBackground.AppCompat"
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="AÑADIR"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:paddingBottom="15dp"/>
+
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
